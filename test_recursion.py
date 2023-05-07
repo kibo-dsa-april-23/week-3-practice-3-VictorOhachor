@@ -20,6 +20,8 @@ class TestRecursion(unittest.TestCase):
     def test_is_prime(self):
         r = Recursion()
         is_prime_number = r.is_prime(7)
+        assert is_prime_number
+        is_prime_number = r.is_prime(10)
         assert not is_prime_number
 
     # add more unit tests below
